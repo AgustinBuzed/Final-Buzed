@@ -12,7 +12,6 @@
 
 nav li:hover a {
     color: rgb(233, 228, 228);
-    transform: scale(1.1);
 }
 
 nav a {
@@ -77,14 +76,16 @@ body {
 }
 
 .yoda {
-    height: 50px;
-    width: 165px;
+    margin-top: 5%;
+}
+
+.card-custom{
+    background-color:#273b47;
 }
 
 /* Imagenes */
-section img {
-    padding: 25px;
-}
+
+
 
 /* Pie de pagina */
 footer {
@@ -95,47 +96,6 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width:500px) {
-    nav ul {
-        display: block
-    }
+@media (max-width:480px) {
 
-    .logo {
-        margin-left: 0px;
-    }
-
-    h1 {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .nombre {
-        margin-bottom: 20px;
-    }
-
-    .apellido {
-        margin-bottom: 20px;
-    }
-
-    .correo {
-        margin-bottom: 20px;
-    }
-
-    .textarea {
-        margin-bottom: 20px;
-    }
-
-    label {
-        display: block;
-        margin-bottom: 5px;
-    }
-
-    input {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .boton {
-        padding: 10px 20px;
-    }
 }
