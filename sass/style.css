@@ -20,9 +20,12 @@ nav a {
 }
 
 /* contenido de la pagina */
+.body {
+  background-color: #18242b;
+}
+
 body {
-  background-image: url(../img/Fondo\ borroso.jpg);
-  background-position: top;
+  background-color: #18242b;
 }
 body p {
   color: rgb(165, 215, 232);
