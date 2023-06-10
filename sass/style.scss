@@ -1,3 +1,17 @@
+@mixin fondo {
+    background-color: #18242b;
+}
+@mixin fuente {
+    color: rgb(165, 215, 232);
+        font-family: 'noto sans';
+        font-size: 20px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 30px;
+}
+
+
 /* Logo y Titulo */
 .logo{
     width: 100px;
@@ -6,33 +20,16 @@
 }
 
 /* HEADER menu de navegacion */
-.navbar-custom {
-    background-color: rgba(20, 64, 107, 0.952);
-}
-
-nav li:hover a {
-    color: rgb(233, 228, 228);
-}
-
-nav a {
-    text-decoration: none;
-    font-family: 'noto sans';
-}
+@import "menu";
 
 /* contenido de la pagina */
 .body{
-    background-color:#18242b ;
+    @include fondo ();
 }
 body {
-    background-color: #18242b;
+    @include fondo();
     p{
-        color: rgb(165, 215, 232);
-        font-family: 'noto sans';
-        font-size: 20px;
-        padding-left: 15px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin: 30px;
+        @include fuente();
     }
     dt{
         color: rgb(165, 215, 232);
