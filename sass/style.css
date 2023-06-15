@@ -50,60 +50,20 @@ body dt {
   color: rgb(104, 141, 153);
 }
 
-.catalogo {
-  margin-left: 27%;
-}
-
-.button-custom {
-  margin-left: 3%;
-  margin-bottom: 3%;
-}
-
 /* formulario de contacto */
 .form-label {
   color: rgb(165, 215, 232);
 }
 
 /* tarjetas de productos y servicios */
-.tarjeta-producto {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  width: 200px;
-  padding: 20px;
-  margin: 15px;
-  display: inline-block;
-}
-.tarjeta-producto .tarjeta-producto img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
-.tarjeta-producto .tarjeta-producto h3 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  font-family: "noto sans";
-  color: rgb(165, 215, 232);
-}
-.tarjeta-producto .tarjeta-producto .precio {
-  font-size: 1.5em;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 10px;
-  font-family: "noto sans";
-  color: rgb(162, 216, 252);
-}
-
-.card-custom {
+.card-body {
   background-color: #273b47;
 }
 
-/* Imagenes */
 /* Pie de pagina */
 footer {
   background-color: rgba(61, 127, 165, 0.2117647059);
 }
 footer footer a {
   margin: 8px;
-}
-
-/* Media Queries *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
