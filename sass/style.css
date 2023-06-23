@@ -50,6 +50,10 @@ body dt {
   color: rgb(104, 141, 153);
 }
 
+.catalogo {
+  padding: 0 280px;
+}
+
 /* formulario de contacto */
 .form-label {
   color: rgb(165, 215, 232);
