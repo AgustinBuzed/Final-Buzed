@@ -27,25 +27,7 @@ li{
 }
 
 /* contenido de la pagina */
-.body{
-    @include fondo ();
-}
-body {
-    @include fondo();
-    p{
-        @include fuente();
-    }
-    dt{
-        color: rgb(165, 215, 232);
-        font-family: 'noto sans'
-    }
-}
-.text {
-    color: rgb(104, 141, 153);
-}
-.catalogo{
-    padding: 0 287px ;
-}
+@import "contenido-pagina"
 
 /* formulario de contacto */
 .form-label {
@@ -58,9 +40,4 @@ body {
 }
 
 /* Pie de pagina */
-footer {
-    background-color: #3d7fa536;
-    footer a{
-        margin: 8px;
-    }
-}
+@import "footer";

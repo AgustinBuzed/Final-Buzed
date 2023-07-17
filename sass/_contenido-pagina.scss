@@ -1,0 +1,16 @@
+body {
+    @include fondo();
+    p {
+        @include fuente();
+    }
+    dt {
+        color: rgb(165, 215, 232);
+        font-family: 'noto sans'
+    }
+}
+.text {
+    color: rgb(104, 141, 153);
+}
+.catalogo {
+    padding: 0 287px;
+}
