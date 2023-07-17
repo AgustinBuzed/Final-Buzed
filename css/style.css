@@ -33,7 +33,7 @@ body {
   background-color: #18242b;
 }
 body p {
-  color: rgb(165, 215, 232);
+  color: rgb(255, 255, 255);
   font-family: "noto sans";
   font-size: 20px;
   padding-left: 15px;
@@ -42,23 +42,17 @@ body p {
   margin: 30px;
 }
 body dt {
-  color: rgb(165, 215, 232);
+  color: rgb(255, 255, 255);
   font-family: "noto sans";
 }
 
 .text {
-  color: rgb(104, 141, 153);
+  color: rgb(255, 255, 255);
 }
-
-.catalogo {
-  padding: 0 287px;
-}
-
 /* formulario de contacto */
-.form-label {
-  color: rgb(165, 215, 232);
+.form-label{
+  color: rgb(255, 255, 255);
 }
-
 /* tarjetas de productos y servicios */
 .card-body {
   background-color: #273b47;
